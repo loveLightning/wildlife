@@ -1,48 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wildlife</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rubik:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <nav class="header__menu">
-                <div class="header__logo">
-                    <img class="header__logo-img" src="./img/logo.svg" alt="logo">
-                    <a class="header__logo-link" href="#">wildlife</a>
-                </div>
-                <ul class="header__menu-links">
-                    <li class="header__item"><a class="header__link" href="#">Articles</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Contacts</a></li>
-                    <li class="header__item"><a class="header__link" href="#"><img class="header__link-search" src="./img/search.svg" alt="search"></a></li>
-                    <li class="header__item"><a class="header__link header__link_border" href="#">Sign in</a></li>
-                </ul>
-            </nav>
-            <div class="header__main">
-                    <h2 class="header__main-title">Survival</h2>
-                    <p class="header__main-desc">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
-                    <button class="header__main-btn">Donate</button>
-            </div>
+      <div class="container">
+        <nav class="header__menu">
+          <div class="header__logo">
+            <img class="header__logo-img" src="./img/logo.svg" alt="logo" />
+            <a class="header__logo-link" href="#">wildlife</a>
+          </div>
+          <ul class="header__menu-links">
+            <li class="header__item">
+              <a class="header__link" href="#">Articles</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Contacts</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#"
+                ><img
+                  class="header__link-search"
+                  src="./img/search.svg"
+                  alt="search"
+              /></a>
+            </li>
+            <li class="header__item">
+              <a class="header__link header__link_border" href="#">Sign in</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__main">
+          <h1 class="header__main-title">Survival</h1>
+          <p class="header__main-desc">
+            What this means is that we exist to help protect our environment and
+            do in numbers of ways. You can save the planet by donation.
+          </p>
+          <button class="header__main-btn">Donate</button>
         </div>
+      </div>
     </header>
-    <section>
-        <div class="container">
 
+    <section class="articles">
+      <div class="container">
+        <div class="articles__title-wrapper">
+          <h2 class="articles__title">Latest articles</h2>
         </div>
+        <div class="articles__desc-wrapper">
+          <p class="articles__desc">Breaking news from the wild</p>
+        </div>
+        <div class="articles__swiper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="articles__carousel-item">
+                  <img
+                    class="articles__carousel-img"
+                    src="./img/squirrel.jpg"
+                    alt="squirrel"
+                  />
+                  <h3 class="articles__carousel-title">Squirrel</h3>
+                  <p class="articles__carousel-desc">Kamikaze squirrels</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="articles__carousel-item">
+                  <img
+                    class="articles__carousel-img"
+                    src="./img/squirrel.jpg"
+                    alt="squirrel"
+                  />
+                  <h3 class="articles__carousel-title">Squirrel</h3>
+                  <p class="articles__carousel-desc">Kamikaze squirrels</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="articles__carousel-item">
+                  <img
+                    class="articles__carousel-img"
+                    src="./img/squirrel.jpg"
+                    alt="squirrel"
+                  />
+                  <h3 class="articles__carousel-title">Squirrel</h3>
+                  <p class="articles__carousel-desc">Kamikaze squirrels</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="articles__carousel-item">
+                  <img
+                    class="articles__carousel-img"
+                    src="./img/squirrel.jpg"
+                    alt="squirrel"
+                  />
+                  <h3 class="articles__carousel-title">Squirrel</h3>
+                  <p class="articles__carousel-desc">Kamikaze squirrels</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"><img src="./img/arrow-left.svg" alt="arrow-next"></div>
+          <div class="swiper-button-next"><img src="./img/arrow-right.svg" alt="arrow-prev"></div>
+        </div>
+      </div>
     </section>
     <footer>
-        <div class="container">
-
-        </div>
+      <div class="container"></div>
     </footer>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
