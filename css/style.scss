@@ -106,6 +106,10 @@ input {
         border-radius: 5px;
         padding: 10px 25px;
         transition: 0.4s ease all;
+        background-color: rgba(28,28,28,0);
+        color: #F7F7F7;
+        font-family: 'Roboto';
+        font-size: 23px;
     }
 
     &__link_border:hover {
