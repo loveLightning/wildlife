@@ -119,6 +119,10 @@ input {
   background-color: #CD6326;
 }
 
+.header__link-search {
+  cursor: pointer;
+}
+
 .header__main {
   max-width: 274px;
   display: -webkit-box;
@@ -292,8 +296,8 @@ input {
 
 .header__close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -20px;
+  right: -20px;
 }
 
 .header__close-link {

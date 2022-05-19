@@ -112,6 +112,10 @@ input {
         background-color: $btn;
     }
 
+    &__link-search {
+        cursor: pointer;
+    }
+
     &__main {
         max-width: 274px;
         display: flex;
@@ -252,8 +256,8 @@ input {
     
     &__close {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: -20px;
+        right: -20px;
     }
 
     &__close-link {
